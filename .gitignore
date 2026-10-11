@@ -1,0 +1,62 @@
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# Temporary and runtime files
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+detections.jpg
+*.pid
+*.lock
+
+# Runtime telemetry and generated experiment output
+hazards.json
+rover_status.json
+compressed_data.npz
+lossy_compressed_data.npz
+crater_telemetry.db
+crater_telemetry.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db-wal
+*.db-shm
+
+# Generated reports, plots, and local experiment folders
+runs/
+outputs/
+results/
+reports/
+*.html
+*.csv
+*.parquet
+
+# --- C.R.A.T.E.R. Pipeline Additions ---
+# Ignore heavy PyTorch training weights (forces the team to use the .onnx edge model)
+*.pt
+
+# Ignore local test media (prevents GitHub size limit crashes)
+test.jpg
+*.mp4
+*.avi
+*.mov
+
+# Webots controller runtime files
+.webots/
+controllers/**/.state/

@@ -1,0 +1,9 @@
+numpy>=1.26
+opencv-python>=4.8
+onnxruntime>=1.17
+streamlit>=1.37
+plotly>=5.20
+pandas>=2.0
+reedsolo>=1.7.0,<2
+matplotlib>=3.8
+ultralytics>=8.2
