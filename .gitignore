@@ -53,9 +53,7 @@ reports/
 
 # Ignore local test media (prevents GitHub size limit crashes)
 test.jpg
-*.mp4
-*.avi
-*.mov
+
 
 # Webots controller runtime files
 .webots/
